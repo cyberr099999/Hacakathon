@@ -1,0 +1,233 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+background-color: rgb(151, 151, 151);
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0009;
+    height: 10%;
+
+  color: white;
+ z-index: 3;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    margin-right: 120px;
+}
+span{
+    color: orange;
+    font-size: 2rem;
+}
+
+  header a:hover{
+    color: orange;
+  }
+  
+  header a:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: orange;
+      transition: 0.3s;
+  }
+ header a:hover::after {
+      width: 100%;
+      transition: 0.3s;
+  }
+  .fa-solid, .fas {
+    font-weight: 900;
+    padding: 6px;
+}
+.login{
+    width: 66px;
+    border-radius: 16px;
+    border: none;
+    background: orange;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+}
+.login:hover{
+    width: 70px;
+    padding: 5px;
+}
+
+
+.essential{
+  height: 85vh;
+  width: 100%;
+ display: flex;
+ 
+ justify-content: center;
+ align-items: center;
+}
+.euqip{
+  height: 88vh;
+  width: 85%;
+  margin-top: 22px;
+  background-color: white;
+  box-shadow: 2px 7px 14px -2px;
+  color: black;
+}
+.text h2{
+  text-align: center;
+}
+.basic{
+background-color: #ffbb2f;
+  height: 8%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.basic button{
+  margin-left: 15px;
+  padding: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.basic button:hover{
+  background-color: purple;
+  color: white;
+}
+.image{
+  height: 79%;
+  width: 100%;
+  display: grid;
+ 
+grid-template-rows: 62% 42% 42% 42%;
+grid-template-columns: 15% 15% 15% 15%;
+ gap: 38px;
+  justify-content: center;
+  margin-top: 70px;
+}
+.img1{
+  border: 2px solid none;
+background-color: rgb(235, 235, 235);
+}
+.img2{
+  border: 2px solid none;
+  background-color: rgb(235, 235, 235);
+}
+.img3{
+  border: 2px solid none;
+  background-color: rgb(235, 235, 235);
+}
+.img4{
+  border: 2px solid none;
+  background-color: rgb(235, 235, 235);
+}
+
+
+.b1{
+  height: 72%;
+  background-image: url(trekshoes.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+}
+.img1 p{
+  margin: 0;
+  margin-left: 9px;
+  margin-top: 0px;
+}
+.btn{
+ cursor: pointer;
+  margin: 2px;
+    margin-left: 10px;
+    padding: 4px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+}
+
+
+.b2{
+  height: 72%;
+  background-image: url(trek-stick.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+}
+.img2 p{
+  margin: 0;
+  margin-left: 9px;
+  margin-top: 0px;
+}
+.btn{
+ cursor: pointer;
+  margin: 2px;
+    margin-left: 10px;
+    padding: 4px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+}
+
+.b3{
+  height: 72%;
+  background-image: url(trek-jCKT.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+.img3 p{
+  margin: 0;
+  margin-left: 9px;
+  margin-top: 0px;
+}
+.btn{
+ cursor: pointer;
+  margin: 2px;
+    margin-left: 10px;
+    padding: 4px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+}
+
+.b4{
+  height: 72%;
+  background-image: url(trek-bag.jfif);
+  background-size: contain;
+  background-repeat: no-repeat;
+ 
+}
+.img4 p{
+  margin: 0;
+  margin-left: 9px;
+  margin-top: 0px;
+}
+.btn{
+ cursor: pointer;
+  margin: 2px;
+    margin-left: 10px;
+    padding: 4px;
+    width: 50px;
+    background-color: orange;
+    border: none;
+}
+footer{
+  height: 87px;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 21px;
+}
+#log:hover::after{
+  width: 0;
+}
